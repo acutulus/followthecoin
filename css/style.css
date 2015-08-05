@@ -1645,11 +1645,11 @@
 /* Progress Bar */
 @font-face {
   font-family: 'League Gothic';
-  src: url("font/league/leaguegothic-regular-webfont.woff2") format("woff2"), url("font/league/leaguegothic-regular-webfont.woff") format("woff"), url("font/league/leaguegothic-regular-webfont.ttf") format("truetype"); }
+  src: url("../font/league/leaguegothic-regular-webfont.woff2") format("woff2"), url("../font/league/leaguegothic-regular-webfont.woff") format("woff"), url("../font/league/leaguegothic-regular-webfont.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'Interstate Light';
-  src: url("font/interstate/interstate-light-cond-webfont.woff2") format("woff2"), url("font/interstate/interstate-light-cond-webfont.woff") format("woff"), url("font/interstate/interstate-light-cond-webfont.ttf") format("truetype"); }
+  src: url("../font/interstate/interstate-light-cond-webfont.woff2") format("woff2"), url("../font/interstate/interstate-light-cond-webfont.woff") format("woff"), url("../font/interstate/interstate-light-cond-webfont.ttf") format("truetype"); }
 
 /************************************
   Materialize Custom Template Styles
@@ -1891,7 +1891,7 @@ main {
   opacity: 0; }
 
 .poster-image .play-video {
-  background-image: url("/img/followthecoin_icon.png");
+  background-image: url("img/followthecoin_icon.png");
   background-size: 100%;
   width: 150px;
   height: 150px;
