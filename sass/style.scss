@@ -144,6 +144,12 @@ main {
   background-color: #f0f0f0;
 }
 
+@media #{$small-and-down} {
+  .main-content {
+    overflow:hidden;
+  }
+}
+
 .top-container {
   position: relative;
   width: 100%;
